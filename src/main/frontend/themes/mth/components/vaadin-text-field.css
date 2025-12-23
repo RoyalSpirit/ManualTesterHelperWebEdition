@@ -1,0 +1,13 @@
+:host {
+    --vaadin-input-field-border-width: 1px;
+    --vaadin-input-field-border-style: solid;
+    --vaadin-input-field-border-color: var(--lumo-contrast-30pct);
+    --vaadin-input-field-border-radius: 8px;
+    --vaadin-input-field-background: #ffffff;
+    --vaadin-input-field-shadow: none;
+    --vaadin-input-field-readonly-border: 1px solid var(--lumo-contrast-30pct);
+}
+
+:host([invalid]) {
+    --vaadin-input-field-border-color: var(--lumo-error-color);
+}
