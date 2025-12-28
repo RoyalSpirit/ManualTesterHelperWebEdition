@@ -8,7 +8,7 @@ public final class UiText {
     // Application
     public static final String APP_NAME = "ManualTesterHelper";
     public static final String APP_EDITION = "Web Edition";
-    public static final String APP_VERSION = "v.0.3";
+    public static final String APP_VERSION = "v.0.4";
 
 
     // Сайдбар
